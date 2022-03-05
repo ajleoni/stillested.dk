@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Header from '@components/Header/Header';
 import Footer from '@components/Footer/Footer';
-import meta from './_meta.js';
+import meta from '../components/_meta.js';
 import NewsPage from '../components/Pages/NewsPage/NewsPage.js';
 
 export default function Home() {
