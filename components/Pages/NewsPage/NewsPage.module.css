@@ -1,0 +1,39 @@
+.news {
+    display: flex;
+    gap: 1rem;
+}
+
+.news aside {
+ width: 25%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.news h2:hover {
+    color: var(--clr-eucalipto);
+}
+
+.news article {
+    width: 75%;
+}
+
+.newsDate {
+    font-size: var(--font-XS);
+    color: var(--clr-grey);
+}
+
+.news p {
+    color:black;
+}
+
+@media (max-width:45rem)  {
+    .news {
+        flex-direction: column;
+    }
+    .news article,.news aside {
+        width:100%;
+    }    
+
+}
+

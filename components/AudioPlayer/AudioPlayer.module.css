@@ -1,0 +1,21 @@
+.audioPlayer {
+    max-width: 650px;
+    margin-block-end: 1rem;
+}
+
+.audioTitle {
+    padding: 0.75rem;
+    background-color: #ddd;
+    border-radius: 10px;
+}
+
+.audioTitle p {
+    font-size: var(--font-S);
+    margin-inline-start: 1rem;
+    margin-block-start: 0.5rem;
+}
+
+.audioTitle audio {
+    margin : 0;
+    width: 100%;
+}

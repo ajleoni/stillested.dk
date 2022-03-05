@@ -1,23 +1,20 @@
-import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
+import Head from 'next/head';
+import Header from '@components/Header/Header';
+import Footer from '@components/Footer/Footer';
+import meta from './_meta.js';
+import HomePage from '../components/Pages/HomePage/HomePage.js';
 
 export default function Home() {
   return (
-    <div className="container">
-      <Head>
-        <title>StilleSted.dk is here</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main>
+    <>
+      <Head>{meta}</Head>
+      <div id="canvas">
         <Header />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
-      </main>
-
-      <Footer />
-    </div>
+        <div className="page-divider"></div>
+        <HomePage></HomePage>
+        <div className="page-divider"></div>
+        <Footer />
+      </div>
+    </>
   )
 }

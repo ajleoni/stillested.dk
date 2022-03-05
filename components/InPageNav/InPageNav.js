@@ -1,0 +1,40 @@
+import styles from './InPageNav.module.css';
+import Image from 'next/image';
+import Link from 'next/link';
+
+const subText = {};
+subText.text1 ='Terapi med unge og voksne' ;
+subText.text2 = 'Mine måder at arbejde på';
+subText.text3 = 'Mine bøger og workshops';
+subText.text4 = 'Guidede meditationer og ressourcer';
+
+export const InPageNav = () => {
+  return (
+    <nav id="in-page-nav" className="grid-4-2">
+        <Link href="/terapi">
+        <section className={styles.navBox}>
+            <figure className={styles.navImg}><Image width='500px' height="500px" alt='Two people talking' src='/imgs/InPageNav/01inPageNav.png'/></figure>
+            <aside className={styles.navSubtitle}><h2>{subText.text1}</h2></aside>
+        </section>
+        </Link>      
+        <Link href="/metode">
+            <section className={styles.navBox}>
+                <figure className={styles.navImg}><Image width='500px' height="500px" alt='person under a tree' src='/imgs/InPageNav/02inPageNav.png' /></figure>
+                <aside className={styles.navSubtitle}><h2>{subText.text2}</h2></aside>
+            </section>
+        </Link>        
+        <Link href="/boeger">
+            <section className={styles.navBox}>
+                <figure className={styles.navImg}><Image width='500px' height="500px" alt='mindfulness books' src='/imgs/InPageNav/03inPageNav.png' /></figure>
+                <aside className={styles.navSubtitle}><h2>{subText.text3}</h2></aside>
+            </section>
+        </Link>
+        <Link href="/ressourcer">
+            <section className={styles.navBox}>
+                <figure className={styles.navImg}><Image width='500px' height="500px" alt='smiling face' src='/imgs/InPageNav/04inPageNav.png'/></figure>
+                <aside className={styles.navSubtitle}><h2>{subText.text4}</h2></aside>
+            </section>
+        </Link>
+    </nav>
+    );
+};

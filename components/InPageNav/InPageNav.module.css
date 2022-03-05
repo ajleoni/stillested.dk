@@ -1,0 +1,24 @@
+.navBox {
+    max-width: 250px;
+    padding-bottom: 0.5rem;
+}
+
+.navBox:hover {
+    padding-top: 0.5rem ;
+    padding-bottom: 0;
+}
+
+.navSubtitle {
+    text-align: center;
+}
+
+.navSubtitle h2 {
+    color: var(--clr-maroon);
+    font-size: var(--font-S);
+    text-align: center;
+}
+
+.navSubtitle h2:hover {
+    color: var(--clr-maroonL);
+}
+

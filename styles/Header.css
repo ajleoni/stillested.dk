@@ -27,7 +27,13 @@ header {
 
 #top-nav a {
 color: var(--clr-grey);
+
 }
+
+#top-nav a:hover {
+    color: var(--clr-eucalipto);
+    }
+    
 
 
 #top-nav ul{
@@ -38,13 +44,18 @@ color: var(--clr-grey);
     padding:0;
 }
 
-.top-nav-link {
+.top-nav-li {
     height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: var(--font-M);
 }
+
+.active-link {
+    font-weight: 700;
+}
+
 
 /* css for Navigation*/
 #nav-open {
