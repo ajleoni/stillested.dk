@@ -1,6 +1,6 @@
 import styles from './HomePage.module.css';
 import Image from 'next/image';
-import {InPageNav} from '../../InPageNav/InPageNav.js';
+import {InPageNav} from '@components/Common/InPageNav/InPageNav.js';
 
 const homePageText = {};
 homePageText.p1 = 'Velkommen hos klinisk psykolog Sabrina Leoni. Min praksis kalder jeg for Stille Sted, fordi jeg i samarbejde med mine klienter hjælper dem til at stoppe op og finde hjem til sig selv, så det bliver tydeligere for den enkelte at se, hvad der er vigtigt og meningsfuld, og hvilke pejlemærker der derfor bliver vigtige at navigere efter i dagligdagen og i livet mere bredt.'

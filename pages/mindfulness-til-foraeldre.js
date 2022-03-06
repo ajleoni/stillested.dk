@@ -1,7 +1,7 @@
 import Head from 'next/head';
-import Header from '@components/Header/Header';
-import Footer from '@components/Footer/Footer';
-import meta from '../components/_meta.js';
+import Header from '@components/Common/Header/Header';
+import Footer from '@components/Common/Footer/Footer';
+import meta from '@components/Common/_meta.js';
 import ParentsPage from '@components/Pages/ParentsPage/ParentsPage.js';
 
 export default function Home() {

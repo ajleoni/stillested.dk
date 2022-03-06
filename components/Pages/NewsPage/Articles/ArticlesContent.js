@@ -1,17 +1,17 @@
-export const article01 = {
+export const article05 = {
         title: 'Gratis mindfulness forløb til unge med ASF og for de unges forældre',
         date: 'October 27, 2017',
         paragraphs: [
             'Jeg glæder mig meget til at opstarte vores 4. gruppeforløb for unge med ASF og en parallel gruppe for de unges forældre. Det er et utroligt meningsfuldt arbejde - særlig når det også giver mening for de unge og forældregruppen. ',
             'Vi starter vores 4. gruppeforløb op februar 2018 - hvor vi arbejder med Mindfulness-Baseret Kognitiv Terapi tilpasset unge med ASF (MYmind programmet). Læs evt. mere på www.mindfulnesstilboern.dk/mymind',
         ],
-        imgSrc: '/imgs/Pages/NewsPage/img01.jpg',
+        imgSrc: '/imgs/Pages/NewsPage/img05.jpg',
         imgWidth:'1500px',
         imgHeight:'1125px',
     };
     
 
-export const article02 = {
+export const article04 = {
         title: 'Gratis foredrag om mindfulness med børn og unge',
         date: 'June 24, 2016',
         paragraphs: [
@@ -35,7 +35,7 @@ export const article02 = {
             'Det vil være muligt at købe bøger af de to forfattere til særpris på dagen.',
             'Du er meget velkommen til at videresende invitationen til andre i dit netværk, som vil finde dette Gå-Hjem-Møde interessant.'
         ],
-        imgSrc: '/imgs/Pages/NewsPage/img02.jpg',
+        imgSrc: '/imgs/Pages/NewsPage/img04.jpg',
         imgWidth:'500px',
         imgHeight:'612px',
     };
@@ -68,7 +68,7 @@ export const article02 = {
     };
 
 
-    export const article04 = {
+    export const article02 = {
         title: 'Konference: Hverdagens små miraklerGratis mindfulness forløb til unge med ASF og for de unges forældre',
         date: 'February 23, 2016',
         paragraphs: [
@@ -80,13 +80,13 @@ export const article02 = {
             <span>Læs mere om konferencen og tilmeld dig på <a href="http://seminarer.dk/arrangementer/jon-kabat-zinn-og-myla-kabat-zinn/">Seminarer.dk</a>.</span>
 
         ],
-        imgSrc: '/imgs/Pages/NewsPage/img04.jpeg',
+        imgSrc: '/imgs/Pages/NewsPage/img02.jpeg',
         imgWidth:'750px',
         imgHeight:'563px', 
     };
 
 
-    export const article05 = {
+    export const article01 = {
         title: 'Mindfulness og kognitiv terapi til børn og unge',
         date: 'December 30, 2015',
         paragraphs: [
@@ -94,7 +94,7 @@ export const article02 = {
             'Programmet hedder MyMind og er blevet udviklet under professor i klinisk psykologi Susan Bögels ved Institut for Psykologi - Amsterdam Universitet.',
             'Metoden er innovativ og er blevet udviklet siden 2005 sideløbende med, at der i Holland og Canada bliver forsket i metodens effektivitet - ind til videre med meget lovende resultater. Blandt børn og unge med ADHD ses bl.a. bedre impulshæmning og øget koncentration og fokuseret opmærksomhed - og forældregruppen fortæller om mindsket stress i dagligdagen og mere kvalitet i relationen til deres barn.',
             'Jeg bruger allerede nu metoden i min egen psykologpraksis STILLE STED i individuelle forløb, og arbejder på at oprette gruppeforløb.'        ],
-            imgSrc: '/imgs/Pages/NewsPage/img05.jpg',
+            imgSrc: '/imgs/Pages/NewsPage/img01.jpg',
             imgWidth:'750px',
             imgHeight:'1004px',
     };

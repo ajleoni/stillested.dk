@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import styles from './ResourcesPage.module.css';
-import {AudioPlayer} from '@components/AudioPlayer/AudioPlayer.js';
+import {AudioPlayer} from '@components/Common/AudioPlayer/AudioPlayer.js';
 
 const track01 = '/tracks/track01.mp3';
 const track02 = '/tracks/track02.mp3';

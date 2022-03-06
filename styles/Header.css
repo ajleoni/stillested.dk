@@ -67,12 +67,12 @@ color: var(--clr-grey);
 
 @media (max-width: 60rem) {
 
-.top-nav-link {
+.top-nav-li {
     font-size: var(--font-XS);
 }    
 
 }
-@media (max-width: 45rem) {
+@media (max-width: 48rem) {
     #top-nav {
         --gap: 2em;
         position: fixed;
