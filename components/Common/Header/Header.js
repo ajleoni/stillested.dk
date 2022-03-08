@@ -43,7 +43,7 @@ export default function Header(props) {
   return (
     <header>
         <div id="logo-box">
-            <a href='https://stillested.netlify.com'><Image width='1000px' height="305px" alt='Stillested logo' src='/StilleStedLogo.png'/></a>
+            <a href='https://stillested.dk'><Image width='1000px' height="305px" alt='Stillested logo' src='/StilleStedLogo.png'/></a>
             <div id="logo-subtitle"><h1>Terapi og mindfulness ved psykolog Sabrina Leoni</h1>
             </div>
         </div>
