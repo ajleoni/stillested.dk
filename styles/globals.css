@@ -63,6 +63,7 @@ img {
 a {
   color: var(--clr-eucalipto);
   text-decoration: none;
+  cursor: pointer;
 }
 
 a:hover {

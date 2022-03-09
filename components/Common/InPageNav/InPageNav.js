@@ -12,28 +12,36 @@ export const InPageNav = () => {
   return (
     <nav id="in-page-nav" className="grid-4-2">
         <Link href="/terapi">
-        <section className={styles.navBox}>
-            <figure className={styles.navImg}><Image width='228px' height="228px" alt='Two people talking' src='/imgs/InPageNav/01inPageNav.webp'/></figure>
-            <aside className={styles.navSubtitle}><h2>{subText.text1}</h2></aside>
-        </section>
+            <a>
+                <section className={styles.navBox}>
+                    <figure className={styles.navImg}><Image width='228px' height="228px" alt='Two people talking' src='/imgs/InPageNav/01inPageNav.webp'/></figure>
+                    <aside className={styles.navSubtitle}><h2>{subText.text1}</h2></aside>
+                </section>
+            </a>
         </Link>      
         <Link href="/metode">
-            <section className={styles.navBox}>
-                <figure className={styles.navImg}><Image width='228px' height="228px" alt='person under a tree' src='/imgs/InPageNav/02inPageNav.webp' /></figure>
-                <aside className={styles.navSubtitle}><h2>{subText.text2}</h2></aside>
-            </section>
+            <a>
+                <section className={styles.navBox}>
+                    <figure className={styles.navImg}><Image width='228px' height="228px" alt='person under a tree' src='/imgs/InPageNav/02inPageNav.webp' /></figure>
+                    <aside className={styles.navSubtitle}><h2>{subText.text2}</h2></aside>
+                </section>
+            </a>
         </Link>        
         <Link href="/boeger">
-            <section className={styles.navBox}>
-                <figure className={styles.navImg}><Image width='228px' height="228px" alt='mindfulness books' src='/imgs/InPageNav/03inPageNav.webp' /></figure>
-                <aside className={styles.navSubtitle}><h2>{subText.text3}</h2></aside>
-            </section>
+            <a>
+                <section className={styles.navBox}>
+                    <figure className={styles.navImg}><Image width='228px' height="228px" alt='mindfulness books' src='/imgs/InPageNav/03inPageNav.webp' /></figure>
+                    <aside className={styles.navSubtitle}><h2>{subText.text3}</h2></aside>
+                </section>
+            </a>
         </Link>
         <Link href="/ressourcer">
-            <section className={styles.navBox}>
-                <figure className={styles.navImg}><Image width='228px' height="228px" alt='smiling face' src='/imgs/InPageNav/04inPageNav.webp'/></figure>
-                <aside className={styles.navSubtitle}><h2>{subText.text4}</h2></aside>
-            </section>
+            <a>
+                <section className={styles.navBox}>
+                    <figure className={styles.navImg}><Image width='228px' height="228px" alt='smiling face' src='/imgs/InPageNav/04inPageNav.webp'/></figure>
+                    <aside className={styles.navSubtitle}><h2>{subText.text4}</h2></aside>
+                </section>
+            </a>
         </Link>
     </nav>
     );
