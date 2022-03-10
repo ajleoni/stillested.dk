@@ -14,7 +14,7 @@ export const InPageNav = () => {
         <Link href="/terapi">
             <a>
                 <section className={styles.navBox}>
-                    <figure className={styles.navImg}><Image width='228px' height="228px" alt='Two people talking' src='/imgs/InPageNav/01inPageNav.webp'/></figure>
+                    <figure className={styles.navImg}><Image width='228px' height="228px" alt='Two people talking' src='/imgs/InPageNav/01inPageNav.png'/></figure>
                     <aside className={styles.navSubtitle}><h2>{subText.text1}</h2></aside>
                 </section>
             </a>
@@ -22,7 +22,7 @@ export const InPageNav = () => {
         <Link href="/metode">
             <a>
                 <section className={styles.navBox}>
-                    <figure className={styles.navImg}><Image width='228px' height="228px" alt='person under a tree' src='/imgs/InPageNav/02inPageNav.webp' /></figure>
+                    <figure className={styles.navImg}><Image width='228px' height="228px" alt='person under a tree' src='/imgs/InPageNav/02inPageNav.png' /></figure>
                     <aside className={styles.navSubtitle}><h2>{subText.text2}</h2></aside>
                 </section>
             </a>
@@ -30,7 +30,7 @@ export const InPageNav = () => {
         <Link href="/boeger">
             <a>
                 <section className={styles.navBox}>
-                    <figure className={styles.navImg}><Image width='228px' height="228px" alt='mindfulness books' src='/imgs/InPageNav/03inPageNav.webp' /></figure>
+                    <figure className={styles.navImg}><Image width='228px' height="228px" alt='mindfulness books' src='/imgs/InPageNav/03inPageNav.png' /></figure>
                     <aside className={styles.navSubtitle}><h2>{subText.text3}</h2></aside>
                 </section>
             </a>
@@ -38,7 +38,7 @@ export const InPageNav = () => {
         <Link href="/ressourcer">
             <a>
                 <section className={styles.navBox}>
-                    <figure className={styles.navImg}><Image width='228px' height="228px" alt='smiling face' src='/imgs/InPageNav/04inPageNav.webp'/></figure>
+                    <figure className={styles.navImg}><Image width='228px' height="228px" alt='smiling face' src='/imgs/InPageNav/04inPageNav.png'/></figure>
                     <aside className={styles.navSubtitle}><h2>{subText.text4}</h2></aside>
                 </section>
             </a>

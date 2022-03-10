@@ -18,7 +18,7 @@ export default function HomePage() {
                 <p>{homePageText.p2}</p>
                 <p>{homePageText.p3}</p>
             </section>
-            <section><Image width='960px' height="640px" alt='A person in a nice garden' src='/imgs/Pages/HomePage/frontPage.webp'/></section>
+            <section><Image width='960px' height="640px" alt='A person in a nice garden' src='/imgs/Pages/HomePage/frontPage.jpg'/></section>
         </article>
 
     </main>
