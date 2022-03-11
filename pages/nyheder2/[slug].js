@@ -30,7 +30,7 @@ export async function getStaticProps({ params: { slug } }) {
 export default function PostPage({ header, content }) {
   return (
     <div className='article'>
-      <Image src={header.image} width={header.imgWidth} height={header.imgHeight}></Image>
+      <Image src={header.image} width={header.imgWidth} height={header.imgHeight} alt={header.title}></Image>
       <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
     </div>
   );
