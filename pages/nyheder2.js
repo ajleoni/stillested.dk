@@ -4,7 +4,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styles from '@components/Pages/NewsPage/NewsPage.module.css';
 
-
 export async function getStaticProps() {
   const files = fs.readdirSync('posts');
 
@@ -17,7 +16,6 @@ export async function getStaticProps() {
       articlesData,
     };
   });
-
   return {
     props: {
       posts,
@@ -27,10 +25,11 @@ export async function getStaticProps() {
 
 export default function News2({ posts }) {
   return (
-    <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 p-4 md:p-0'>
-      {posts.map(({ slug, articlesData }) => (
+    <div>
+      {posts.map( ({ slug, articlesData }, index) => (
         <div key={slug} >
-          <Link href={`/nyheder/${slug}`}>
+        {index!==0?<div className="page-divider"></div>:<div></div>}
+          <Link href={`/nyheder2/${slug}`}>
             <a>
             <section className={styles.news}>
               <aside>

@@ -69,7 +69,7 @@ export const article04 = {
 
 
     export const article02 = {
-        title: 'Konference: Hverdagens små miraklerGratis mindfulness forløb til unge med ASF og for de unges forældre',
+        title: 'Konference: Hverdagens små mirakler',
         date: 'February 23, 2016',
         paragraphs: [
             'Jon Kabat-Zinn og hans hustru Myla Kabat-Zinn er hovedtalerne på denne spændende dag. Jon Kabat-Zinn er en af hovedmændene, bag Mindfulness-bølgen i den vestlige verden. På konferencen sætter han og Myla Kabat-Zinn fokus på, hvordan vi bruger mindfulness i arbejdet med børn og unge. Jon og Myla Kabat-Zinn har også skrevet bogen "Everyday blessing", som snart udkommer på dansk. Jeg kan varmt anbefale bogen.',
