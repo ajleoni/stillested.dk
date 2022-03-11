@@ -55,18 +55,26 @@ export default function Header(props) {
                 <span className="sr-only">Menu Close</span>
             </button>
             <ul >
-                <Link href="/">
-                    <li className='top-nav-li' ><a className={router.pathname == "/" ? "active-link" : ""} onClick={handleClick}>FORSIDE</a></li>
-                </Link>
-                <Link href="/about">
-                    <li className='top-nav-li' ><a className={router.pathname == "/about" ? "active-link" : ""} onClick={handleClick}>OM MIG</a></li>
+                <li className='top-nav-li' >
+                    <Link href="/">
+                        <a className={router.pathname == "/" ? "active-link" : ""} onClick={handleClick}>FORSIDE</a>
                     </Link>
-                <Link href="/kontakt">
-                    <li className='top-nav-li' ><a className={router.pathname == "/kontakt" ? "active-link" : ""} onClick={handleClick}>KONTAKT</a></li>
+                </li>
+                <li className='top-nav-li' >
+                    <Link href="/about">
+                        <a className={router.pathname == "/about" ? "active-link" : ""} onClick={handleClick}>OM MIG</a>
                     </Link>
-                <Link href="/nyheder">
-                    <li className='top-nav-li' ><a className={router.pathname == "/nyheder" ? "active-link" : ""} onClick={handleClick}>NYHEDER</a></li>
-                </Link>
+                </li>
+                <li className='top-nav-li' >
+                    <Link href="/kontakt">
+                        <a className={router.pathname == "/kontakt" ? "active-link" : ""} onClick={handleClick}>KONTAKT</a>
+                    </Link>
+                </li>
+                <li className='top-nav-li' >
+                    <Link href="/nyheder">
+                        <a className={router.pathname == "/nyheder" ? "active-link" : ""} onClick={handleClick}>NYHEDER</a>
+                    </Link>
+                </li>
             </ul>
         </nav>
     </header>
