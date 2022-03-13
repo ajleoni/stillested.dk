@@ -14,4 +14,4 @@ Programmet hedder MyMind og er blevet udviklet under professor i klinisk psykolo
 
 Metoden er innovativ og er blevet udviklet siden 2005 sideløbende med, at der i Holland og Canada bliver forsket i metodens effektivitet - ind til videre med meget lovende resultater. Blandt børn og unge med ADHD ses bl.a. bedre impulshæmning og øget koncentration og fokuseret opmærksomhed - og forældregruppen fortæller om mindsket stress i dagligdagen og mere kvalitet i relationen til deres barn.
 
-Jeg bruger allerede nu metoden i min egen psykologpraksis STILLE STED i individuelle forløb, og arbejder på at oprette gruppeforløb.' 
+Jeg bruger allerede nu metoden i min egen psykologpraksis STILLE STED i individuelle forløb, og arbejder på at oprette gruppeforløb.

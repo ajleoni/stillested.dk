@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styles from '@components/Pages/NewsPage/NewsPage.module.css';
 
-export default function NewsPage({ posts }) {
+export default function NewsList({ posts }) {
   return (
     <div>
       {posts.map( ({ slug, articlesData }, index) => (

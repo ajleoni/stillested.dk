@@ -1,7 +1,6 @@
 import fs from 'fs';
 import matter from 'gray-matter';
-import md from 'markdown-it';
-import Image from 'next/image';
+import NewsPost from '@components/Pages/NewsPage/NewsPost.js';
 
 export async function getStaticPaths() {
   const files = fs.readdirSync('posts');
@@ -29,11 +28,6 @@ export async function getStaticProps({ params: { slug } }) {
 
 export default function PostPage({ header, content }) {
   return (
-    <div className='article'>
-      <Image src={header.image} width={header.imgWidth} height={header.imgHeight} alt={header.title}></Image>
-      <h1>{header.title}</h1>
-      <p className='article-date'>{header.date}</p>
-      <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
-    </div>
+    <NewsPost header={header} content={content}/>
   );
 }
