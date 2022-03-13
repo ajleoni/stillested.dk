@@ -18,8 +18,8 @@ const projectText = {};
 projectText.h2 ='Projekter';
 projectText.p1 ='Jeg arbejder ofte projektbaseret:';
 projectText.b1 = <p>i 2017-2018 har jeg deltaget i et forskningsprojekt ved Institut for Psykologi - Syddansk Universitet, hvor jeg har faciliteret 4 gruppeforløb i Mindfulness-Baseret Kognitiv Terapi for unge med autisme og for deres forældre. Jeg faciliteret 1 unge gruppe og 3 forældre grupper.</p>;
-projectText.b2 = <p>i 2016 deltog jeg i en udviklingsgruppe under <a target="_blank" href="https://www.cfps.dk">Center For Psykisk Sundhedsfremme</a>, hvor vi tilpassede det meditations-integrerende gruppeforløb 'Åben og Rolig' til unge i gymnasier og på videregående uddannelser - her var jeg samtidig facilitator af et gruppeforløb på et gymnasie i Aalborg.</p>;
-projectText.b3 = <p>i 2015 var jeg medudvikler af og forfatter til det resiliensfremmende læringsforløb STÆRKE SAMMEN (4.-6. klasse) hos Red Barnet. Materialet STÆRKE SAMMEN og det tilhørende legekatalog LEGE SAMMEN <a target="_blank" href="https://redbarnet.dk/skole/boerns-rettigheder/staerke-sammen/">kan downloades gratis her</a>.</p>;
+projectText.b2 = <p>i 2016 deltog jeg i en udviklingsgruppe under Center For Psykisk Sundhedsfremme, hvor vi tilpassede det meditations-integrerende gruppeforløb 'Åben og Rolig' til unge i gymnasier og på videregående uddannelser - her var jeg samtidig facilitator af et gruppeforløb på et gymnasie i Aalborg.</p>;
+projectText.b3 = <p>i 2015 var jeg medudvikler af og forfatter til det resiliensfremmende læringsforløb STÆRKE SAMMEN (4.-6. klasse) hos Red Barnet.</p>;
 
 
 export default function AboutPage() {

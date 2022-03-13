@@ -31,6 +31,8 @@ export default function PostPage({ header, content }) {
   return (
     <div className='article'>
       <Image src={header.image} width={header.imgWidth} height={header.imgHeight} alt={header.title}></Image>
+      <h1>{header.title}</h1>
+      <p className='article-date'>{header.date}</p>
       <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
     </div>
   );

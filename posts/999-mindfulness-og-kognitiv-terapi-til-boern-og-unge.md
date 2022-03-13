@@ -1,4 +1,5 @@
 ---
+number: '999'
 title: 'Mindfulness og kognitiv terapi til børn og unge'
 summary: 'Så er jeg blevet certificeret i Mindfulness Baseret Cognitiv Terapi tilpasset børn, unge og forældre - særlig med fokus på stress, ADHD og højtfungerende autisme.'
 metaTitle: 'Mindfulness og kognitiv terapi til børn og unge'
@@ -7,9 +8,6 @@ imgWidth: '750px'
 imgHeight: '1004px'
 date: 'December 30, 2015'
 ---
-# Mindfulness og kognitiv terapi til børn og unge
-December 30, 2015
-
 Så er jeg blevet certificeret i Mindfulness Baseret Cognitiv Terapi tilpasset børn, unge og forældre - særlig med fokus på stress, ADHD og højtfungerende autisme.
 
 Programmet hedder MyMind og er blevet udviklet under professor i klinisk psykologi Susan Bögels ved Institut for Psykologi - Amsterdam Universitet.

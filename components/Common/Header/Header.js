@@ -72,7 +72,7 @@ export default function Header(props) {
                 </li>
                 <li className='top-nav-li' >
                     <Link href="/nyheder">
-                        <a className={router.pathname == "/nyheder" ? "active-link" : ""} onClick={handleClick}>NYHEDER</a>
+                        <a className={router.pathname.includes("/nyheder") ? "active-link" : ""} onClick={handleClick}>NYHEDER</a>
                     </Link>
                 </li>
             </ul>
