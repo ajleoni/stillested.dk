@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoBox{
+    display: flex;
+    flex-direction: column;
+}
+
+.logoBox > a{
+    max-width: 250px ;
+}
+
+
+.logoSubtitle h1 {
+    font-size: 0.80rem;
+    color:var(--clr-eucalipto);
+    font-weight: 700;
+}
+
+.logo {
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+}
+
+.topNav a {
+color: var(--clr-grey);
+
+}
+
+.topNav a:hover {
+    color: var(--clr-eucalipto);
+    }
+    
+
+
+.topNav ul{
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0 0.5rem 0 0;
+    padding:0;
+}
+
+.topNav-li {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--font-M);
+}

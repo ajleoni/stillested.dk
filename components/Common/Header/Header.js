@@ -41,16 +41,16 @@ export default function Header(props) {
                 } 
         };    
   return (
-    <header>
-        <div id="logo-box">
+    <header className={styles.header}>
+        <div id="logo-box" className={styles.logoBox}>
             <a href='https://stillested.dk'><Image width='1000px' height="305px" alt='Stillested logo' src='/StilleStedLogo.png'/></a>
-            <div id="logo-subtitle"><h1>Terapi og mindfulness ved psykolog Sabrina Leoni</h1>
+            <div id="logo-subtitle" className={styles.logoSubtitle}><h1>Terapi og mindfulness ved psykolog Sabrina Leoni</h1>
             </div>
         </div>
         <button onClick={handleOpen} id="nav-open" className="nav-button" aria-controls="primary-navigation">
                 <span className="sr-only">Menu Open</span>
             </button>
-        <nav id="top-nav" data-visible="false">
+        <nav id="top-nav" className={styles.topNav} data-visible="false">
             <button onClick={handleClose} id="nav-close" className="nav-button" aria-controls="primary-navigation">
                 <span className="sr-only">Menu Close</span>
             </button>

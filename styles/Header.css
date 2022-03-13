@@ -1,49 +1,4 @@
-header {
-    display: flex;
-    justify-content: space-between;
-}
-
-#logo-box{
-    display: flex;
-    flex-direction: column;
-}
-
-#logo-box > a{
-    max-width: 250px ;
-}
-
-
-#logo-subtitle h1 {
-    font-size: 0.80rem;
-    color:var(--clr-eucalipto);
-    font-weight: 700;
-}
-
-#logo {
-    max-height: 100%;
-    max-width: 100%;
-    display: block;
-}
-
-#top-nav a {
-color: var(--clr-grey);
-
-}
-
-#top-nav a:hover {
-    color: var(--clr-eucalipto);
-    }
-    
-
-
-#top-nav ul{
-    list-style: none;
-    display: flex;
-    gap: 1.5rem;
-    margin: 0 0.5rem 0 0;
-    padding:0;
-}
-
+/* css for Navigation*/
 .top-nav-li {
     height: 80px;
     display: flex;
@@ -56,8 +11,6 @@ color: var(--clr-grey);
     font-weight: 700;
 }
 
-
-/* css for Navigation*/
 #nav-open {
     display: none;
 }
