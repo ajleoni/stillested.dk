@@ -1,4 +1,5 @@
 ---
+number: '998'
 title: 'Konference: Hverdagens små mirakler'
 summary: 'Jon Kabat-Zinn og hans hustru Myla Kabat-Zinn er hovedtalerne på denne spændende dag.'
 metaTitle: 'Konference: Hverdagens små mirakler'
@@ -7,9 +8,6 @@ imgWidth: '750px'
 imgHeight: '563px'
 date: 'February 23, 2016'
 ---
-# Konference: Hverdagens små mirakler
-February 23, 2016
-
 Jon Kabat-Zinn og hans hustru Myla Kabat-Zinn er hovedtalerne på denne spændende dag. Jon Kabat-Zinn er en af hovedmændene, bag Mindfulness-bølgen i den vestlige verden. På konferencen sætter han og Myla Kabat-Zinn fokus på, hvordan vi bruger mindfulness i arbejdet med børn og unge. Jon og Myla Kabat-Zinn har også skrevet bogen "Everyday blessing", som snart udkommer på dansk. Jeg kan varmt anbefale bogen.
 
 Dagens andre oplæg vil handle om, hvordan man kan bruge mindfulness til at styrke børn og unges udvikling, og hvordan man kan arbejde med dette som professionel eller forælder.
