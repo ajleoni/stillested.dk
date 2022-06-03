@@ -7,7 +7,6 @@ const ContentSecurityPolicy = `
   default-src 'self';
   script-src 'self';
   child-src stillested.dk;
-  style-src 'self' stillested.dk;
 `
 const securityHeaders = [
     {
