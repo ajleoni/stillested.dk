@@ -3,11 +3,6 @@
 // You can choose which headers to add to the list
 // after learning more below.
 
-const ContentSecurityPolicy = `
-  default-src 'self';
-  script-src 'self';
-  child-src stillested.dk;
-`
 const securityHeaders = [
     {
         key: 'Strict-Transport-Security',
@@ -24,10 +19,6 @@ const securityHeaders = [
       {
         key: 'Referrer-Policy',
         value: 'origin-when-cross-origin'
-      },
-      {
-        key: 'Content-Security-Policy',
-        value: ContentSecurityPolicy.replace(/\s{2,}/g, ' ').trim()
       }
 ]
 
