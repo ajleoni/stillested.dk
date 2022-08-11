@@ -1,10 +1,10 @@
 const meta = 
 (<>
-    <title>Mindfulness for børn og unge</title>
+    <title>Terapi for voksne og unge</title>
     <meta property="og:site_name" content="Stille Sted" />
-    <meta property="og:title" content="Mindfulness for børn og unge"/>
+    <meta property="og:title" content="Terapi for voksne og unge"/>
     <meta property="og:url" content="https://www.stillested.dk"/>
-    <meta name="description" content="Mindfulness forløb for børn, individuelt eller i gruppe. Kurser og foredrag for lærere, pædagoger, psykologer og forældre. Få inspiration til mindfulness øvelser til børn og læs forskningsartikler. Forløb i skoler og daginstitutioner."/>
+    <meta name="description" content="Terapi forløb for unge, voksne, individuelt eller i gruppe. Kurser og foredrag for lærere, pædagoger, psykologer og forældre. Få inspiration til mindfulness øvelser til børn og læs forskningsartikler. Forløb i skoler og daginstitutioner."/>
     <meta charset="utf-8" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
