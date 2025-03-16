@@ -31,16 +31,16 @@ therapyText.b1 = 'Stress og psykosomatiske symptomer';
 therapyText.b2 = 'Forskellige former for utryghed eller angst';
 therapyText.b3 = 'Uro, opmærksomhedsvanskeligheder, ADHD';
 therapyText.b4 = 'Tristhed, manglende energi, isolation';
-therapyText.b5 = 'Eksistentielle og relationelle tematikker i ungdomsårene';
+therapyText.b5 = 'Eksistentielle og relationelle tematikker';
 
 const midText = {};
-midText.p1 ='Er du ung og overvejer du terapi, så læs mere her. (under opbygning';
+midText.p1 ='Er du ung og overvejer du terapi, så læs mere her. (under opbygning)';
 midText.p2 =<p>Er du forælder og ønsker forældrerådgivningsforløb baseret på bevidst nærvær i forældreskabet - <Link href="/mindfulness-til-foraeldre">så læs mere her</Link></p>;
 midText.p3 ='Min psykologpraksis ligger i hjertet af Vanløse - 500 meter fra Vanløse metro- og togstation. Når vejret tillader det, afholdes sessioner enten udenfor i haven eller i drivhuset. Ved dårligt vejr holder vi til i mit hyggelige kliniklokale.';
 midText.h3 ='Ydelser og priser:';
-midText.b1 ='En konsultation (50 min.) - 900 Kr.';
-midText.b2 ='Studenterpris (50 min.) - 600 Kr.';
-midText.b3 ='Et forløb (9 sessioner) - 5.000 Kr.';
+midText.b1 ='En konsultation (50 min.) - 1.100 Kr.';
+midText.b2 ='Studenterpris (50 min.) - 800 Kr.';
+midText.b3 ='Et voksenforløb (9 sessioner) - 8.000 Kr.';
 
 const wtText = {};
 wtText.h3 ='Walk and talk sessioner';
@@ -74,7 +74,6 @@ export default function TherapyPage() {
     <section className='flex'>
       <article className="oneHalf-to-all">
         <br /><br />
-        <p>{midText.p1}</p>
         {midText.p2}
       </article>
       <aside className="green-card oneHalf-to-all">

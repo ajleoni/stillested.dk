@@ -12,7 +12,6 @@ aboutText.p2 = 'Til dagligt arbejder jeg i Center for Mental Sundhed, København
 aboutText.p3 = 'Som psykolog er jeg stærkt forankret i den nyeste kliniske viden og terapeutiske udviklinger samt udviklingspsykologisk viden. Jeg arbejder med den metode, der passer til den enkeltes behov og livssituation, men er særligt inspireret af relationelle og mentaliseringsfremmende tilgange, ACT, Compassion Focused Therapy og Mindfulness-Baseret Kognitiv Terapi. ';
 aboutText.p4 = 'Jeg er uddannet i Mindfulness-Baseret Kognitiv Terapi for voksne med stress, angst eller depression ved Bangor University, Wales. Derudover er jeg uddannet og certificeret i en videreudvikling af Mindfulness-Baseret Kognitiv Terapi, der er særligt tilpasset til unge og børn - samt forældre (og fagfolk) - ved Institut for Psykologi, Amsterdam Universitet. Jeg er desuden certificeret i Åben og Rolig, der er et 9 ugers meditationsbaseret gruppeforløb for voksne, der oplever en høj grad af pres og stress i deres dagligdag. ';
 aboutText.p5 = 'Jeg holder mig løbende orienteret i den nyeste forskning og viden på feltet - gennem konferencer og kurser både nationalt og internationalt. Jeg anvender selv mindfulnessmeditation og bevidst nærvær i min dagligdag.';
-aboutText.p6 = 'Jeg er 42 år, gift og mor til tre.';
 
 const projectText = {};
 projectText.h2 ='Projekter';
